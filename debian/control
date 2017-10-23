@@ -1,0 +1,13 @@
+Source: scibian-modules
+Section: scibian
+Priority: optional
+Maintainer: Scibian Packaging Team <packaging@scibian.org>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.0
+
+Package: scibian-modules
+Architecture: all
+Depends: ${misc:Depends}, lmod, scibian-bashrcd
+Description: Modules support for Scibian workstations
+ This package sets up lmod so that it's usable
+ with Scibian business apps out of the box.

@@ -1,0 +1,2 @@
+modulespath /usr/share/scibian-modules
+lmod-fix-nonlogin.sh /etc/bash.bashrc.d

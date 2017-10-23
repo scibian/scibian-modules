@@ -1,0 +1,11 @@
+/opt/modulefiles/base
+/opt/modulefiles/compiler
+/opt/modulefiles/debugger
+/opt/modulefiles/devel
+/opt/modulefiles/lib
+/opt/modulefiles/math
+/opt/modulefiles/mpi
+/opt/modulefiles/numlib
+/opt/modulefiles/system
+/opt/modulefiles/toolchain
+/opt/modulefiles/tools

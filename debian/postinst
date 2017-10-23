@@ -1,0 +1,16 @@
+#!/bin/sh
+# postinst script for scibian-modules
+#
+# see: dh_installdeb(1)
+
+set -e
+
+# environment-modules leaves this file when uninstalled so we need to clean it
+rm -f /etc/profile.d/modules.sh
+
+echo "# Warning this file is automatically maintained by scibian-modules, manual changes will be overwritten" > /etc/lmod/modulespath
+cat /usr/share/scibian-modules/modulespath >> /etc/lmod/modulespath
+
+#DEBHELPER#
+
+exit 0

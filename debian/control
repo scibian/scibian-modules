@@ -2,8 +2,8 @@ Source: scibian-modules
 Section: scibian
 Priority: optional
 Maintainer: Scibian Packaging Team <packaging@scibian.org>
-Build-Depends: debhelper (>= 10)
-Standards-Version: 4.1.0
+Build-Depends: debhelper (>= 12)
+Standards-Version: 4.3.0
 
 Package: scibian-modules
 Architecture: all

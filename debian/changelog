@@ -1,5 +1,5 @@
-scibian-modules (9.0) scibian9; urgency=medium
+scibian-modules (10.0) scibian10; urgency=medium
 
-  * Initial release
+  * Initial Scibian10 Release
 
- -- Scibian Packaging Team <packaging@scibian.org>  Fri, 13 Oct 2017 15:19:59 +0200
+ -- Scibian Packaging Team <packaging@scibian.org>  Thu, 28 Mar 2019 11:37:15 +0100
